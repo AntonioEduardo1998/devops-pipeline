@@ -11,7 +11,7 @@
     "start:prod": "node dist/server.js",
     "start:migrate:prod": "npx prisma migrate deploy && npm run start:prod",
     "clean": "rm -rf node_modules package-lock.json yarn.lock dist",
-    "test": "npx jest",
+    "test": "jest",
     "postinstall": "prisma generate"
   },
   "prisma": {
